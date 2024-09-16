@@ -2,21 +2,31 @@
     padding: 0;
     margin: 0;
 }
-h1{
-    text-align: center;
-    color: red;
-    margin-bottom: 2%;
-}
-h1:hover{
-    color: green;
-    cursor: pointer;
+
+body{
+    background-color: gray;
 }
 
-img{
-    margin-left: 34%;
-    transition: .2s;
+#menu-nav{
+    justify-content: space-around;
+    display: flex;
 }
-img:hover{
-    transform: scale(1.1);
-    transition: .5s;
+#menu-nav ul{
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    gap: 1rem;
+    line-height: 60px;
+}
+#menu-nav a{
+    text-decoration: none;
+    color: white;
+    transition: .2s
+}
+#menu-nav a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    transition: .2s;
 }
